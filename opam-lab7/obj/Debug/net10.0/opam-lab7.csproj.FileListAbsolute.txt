@@ -12,3 +12,4 @@ S:\RIDER\RiderProjects\opam-lab7\opam-lab7\obj\Debug\net10.0\refint\opam-lab7.dl
 S:\RIDER\RiderProjects\opam-lab7\opam-lab7\obj\Debug\net10.0\opam-lab7.pdb
 S:\RIDER\RiderProjects\opam-lab7\opam-lab7\obj\Debug\net10.0\opam-lab7.genruntimeconfig.cache
 S:\RIDER\RiderProjects\opam-lab7\opam-lab7\obj\Debug\net10.0\ref\opam-lab7.dll
+S:\RIDER\RiderProjects\opam-lab7\opam-lab7\obj\Debug\net10.0\opam-lab7.sourcelink.json
