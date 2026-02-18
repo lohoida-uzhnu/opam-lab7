@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("opam-lab7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6442fa797af42101c7af2a236e50209c5bc48e0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e832d482760d94e62dd31e78f9c7b3b3320eaa66")]
 [assembly: System.Reflection.AssemblyProductAttribute("opam-lab7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("opam-lab7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

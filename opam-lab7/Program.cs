@@ -10,8 +10,11 @@
             discountCalculator += price => price * 0.90;
             discountCalculator += price => price - 100;
 
-            double price = discountCalculator(1000);
-           
+            double price = 1000;
+            foreach (Func<double, double> func in discountCalculator.GetInvocationList())
+            {
+                price = func(price);
+            }
             Console.WriteLine(price);
         }
     }
