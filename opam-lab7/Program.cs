@@ -1,27 +1,18 @@
-﻿class BankTerminal
-{
-    public event Action<int> OnMoneyWithdraw;
-
-    public void Withdraw(int amount)
+﻿namespace opam_lab7
+{ 
+    class Program
     {
-        OnMoneyWithdraw?.Invoke(amount);
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        BankTerminal terminal = new BankTerminal();
-
-        terminal.OnMoneyWithdraw += amount =>
+        static void Main()
         {
-            Console.WriteLine($"Знято {amount} грн");
-        };
+            Func<double, double> discountCalculator = null;
 
-        terminal.Withdraw(500);
+            discountCalculator += price => price * 0.95;
+            discountCalculator += price => price * 0.90;
+            discountCalculator += price => price - 100;
 
-        terminal.OnMoneyWithdraw = null;
-        terminal.OnMoneyWithdraw.Invoke(1000);
+            double price = discountCalculator(1000);
+           
+            Console.WriteLine(price);
+        }
     }
 }
